@@ -1912,3 +1912,46 @@ Atualizar o sidebar das páginas Português e English para seguir a estrutura da
 - ✅ **Sempre Atualizado**: Notion mantém conteúdo sempre atual
 
 🎯 **RESULTADO: Documentação Notion perfeitamente integrada na seção Scripts STEVO!**
+
+### Fase 21.14: Substituição Completa por Iframe Notion na Seção Scripts STEVO (08/01/2025) ✅
+- **SOLICITAÇÃO**: Remover TODO o conteúdo da página Scripts STEVO e deixar APENAS o iframe do Notion como página principal
+- **IMPLEMENTAÇÃO**: Substituição completa do conteúdo complexo por iframe full-screen
+- **VERSÕES ATUALIZADAS**: Português ('scripts-stevo-ghl') e Inglês ('stevo-scripts-ghl')
+
+**Mudanças Técnicas Aplicadas:**
+- ❌ **REMOVIDO**: Todo conteúdo anterior (vídeo tutorial, explicações, códigos, scripts, navegação)
+- ✅ **IFRAME ÚNICO**: Notion como página principal ocupando praticamente toda a tela
+- ✅ **DIMENSÕES**: calc(100vh - 140px) altura + min-height 800px para responsividade
+- ✅ **BILÍNGUE**: Implementado em português (scripts-stevo-ghl) e inglês (stevo-scripts-ghl)
+- ✅ **DESIGN CLEAN**: Sem bordas, margins ou padding desnecessários
+
+**Características da Nova Implementação:**
+- **Página Única**: Iframe do Notion como conteúdo principal exclusivo
+- **Full-Screen**: Ocupa quase toda a área disponível da tela
+- **Responsivo**: Altura dinâmica baseada no viewport (calc(100vh - 140px))
+- **Minimalista**: Sem elementos de distração, foco total no conteúdo do Notion
+- **Performance**: Carregamento mais rápido sem elementos HTML complexos
+- **Manutenção**: Conteúdo gerenciado diretamente no Notion, sem necessidade de editar HTML
+
+**Benefícios da Mudança:**
+- 🎯 **Foco Total**: Usuário vê apenas o conteúdo essencial do Notion
+- 📱 **Mobile-First**: Melhor experiência em dispositivos móveis
+- ⚡ **Performance**: Menos código = carregamento mais rápido
+- 🔄 **Atualizações**: Conteúdo atualizado automaticamente via Notion
+- 🎨 **UX Limpa**: Interface mais limpa e focada no que realmente importa
+- 🌐 **Bilíngue**: Mesma experiência em português e inglês
+
+**Comparação Antes vs Depois:**
+- ❌ **Antes**: Página complexa com ~500 linhas de HTML (vídeo + explicações + códigos + navegação)
+- ✅ **Depois**: Página minimalista com ~8 linhas de HTML (apenas iframe full-screen)
+- ❌ **Antes**: Múltiplas seções com scroll interno
+- ✅ **Depois**: Uma única seção com conteúdo completo do Notion
+- ❌ **Antes**: Manutenção via edição do HTML
+- ✅ **Depois**: Manutenção via Notion (mais prático e ágil)
+
+**Próximos Passos:**
+- ✅ **Teste Funcional**: Validar carregamento em ambos os idiomas
+- 📱 **Mobile Test**: Confirmar responsividade full-screen
+- 🔄 **Git Update**: Preparar commit com as mudanças realizadas
+
+🎯 **RESULTADO: Seção Scripts STEVO agora é uma experiência full-screen focada apenas no conteúdo essencial do Notion!**
