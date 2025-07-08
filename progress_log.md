@@ -1876,3 +1876,39 @@ Atualizar o sidebar das páginas Português e English para seguir a estrutura da
 - **Robustez**: Sem conflitos entre HTML estático e JavaScript dinâmico
 
 🎯 **RESULTADO: Problema do indicador ativo COMPLETAMENTE resolvido!**
+
+### Fase 21.13: Integração da Documentação Notion na Seção Scripts STEVO (07/01/2025) ✅
+- **NOVA FUNCIONALIDADE**: Adicionado iframe da página do Notion na seção "Scripts Stevo para o GHL"
+- **URL NOTION**: https://stevochat.notion.site/ebd/225a27a3743c8067a3a5ed7c494173d7
+- **POSICIONAMENTO**: Logo após o vídeo tutorial, antes da explicação dos scripts
+- **DIMENSÕES**: 100% largura x 600px altura para visualização completa
+- **DESIGN INTEGRADO**: Border-radius, sombra e margem para harmonia visual
+
+**Elementos Implementados:**
+- ✅ **Nova Seção**: "📖 Documentação Detalhada Scripts STEVO"
+- ✅ **Descrição**: Texto explicativo sobre documentação completa
+- ✅ **Iframe Responsivo**: 100% largura adaptável a qualquer tela
+- ✅ **Estilos Elegantes**: border-radius 8px + box-shadow sutil
+- ✅ **Editor Visual**: Título e descrição editáveis inline
+
+**Características Técnicas:**
+- **URL Completa**: https://stevochat.notion.site/ebd/225a27a3743c8067a3a5ed7c494173d7
+- **Atributos**: frameborder="0" + allowfullscreen para melhor experiência
+- **Styling**: Margem 16px + sombra rgba(0,0,0,0.1) para destaque
+- **Responsividade**: Width 100% para adaptar a diferentes dispositivos
+- **Altura Fixa**: 600px para visualização adequada do conteúdo
+
+**Fluxo da Seção Atualizada:**
+1. **📹 Vídeo Tutorial**: Placeholder existente
+2. **📖 Documentação Detalhada**: **NOVO IFRAME NOTION** ← Adicionado
+3. **🚀 O que são os Scripts STEVO**: Explicação conceitual
+4. **🛠️ Scripts Disponíveis**: Lista dos 4 scripts com versões
+5. **⚙️ Como Implementar**: Códigos completos Global/Seletivo
+
+**Benefícios da Integração:**
+- ✅ **Acesso Direto**: Usuários acessam documentação sem sair da página
+- ✅ **Conteúdo Completo**: Exemplos práticos, códigos e configurações
+- ✅ **Experiência Integrada**: Fluxo natural do tutorial para documentação
+- ✅ **Sempre Atualizado**: Notion mantém conteúdo sempre atual
+
+🎯 **RESULTADO: Documentação Notion perfeitamente integrada na seção Scripts STEVO!**
