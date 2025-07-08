@@ -4236,18 +4236,9 @@ public class STEVOInstance {
                      </div>
                  `;
             } else if (tutorialId === 'scripts-stevo-ghl') {
-                // Conteúdo "Scripts Stevo para o GHL" - Apenas iframe do Notion
-                content.innerHTML = `
-                    <div style="width: 100%; height: calc(100vh - 140px); min-height: 800px; margin: 0; padding: 0; overflow: hidden;">
-                        <iframe src="https://stevochat.notion.site/ebd/225a27a3743c8067a3a5ed7c494173d7" 
-                                width="100%" 
-                                height="100%" 
-                                frameborder="0" 
-                                allowfullscreen
-                                style="border: none; border-radius: 0; margin: 0; padding: 0; display: block;">
-                        </iframe>
-                    </div>
-                `;
+                // Redirecionamento direto para página completa do Notion
+                window.open('https://stevochat.notion.site/Transformando-seu-GHL-no-SUPER-GHL-com-os-Scripts-STEVO-225a27a3743c8067a3a5ed7c494173d7', '_blank');
+                return;
             } else if (tutorialId === 'gerenciamento-grupos') {
                 // Conteúdo "Gerenciamento de Grupos"
                 content.innerHTML = `
@@ -5026,18 +5017,9 @@ print(resultado)</code>
                     </div>
                 `;
             } else if (tutorialId === 'stevo-scripts-ghl') {
-                // English: STEVO Scripts for GHL - Only Notion iframe
-                content.innerHTML = `
-                    <div style="width: 100%; height: calc(100vh - 140px); min-height: 800px; margin: 0; padding: 0; overflow: hidden;">
-                        <iframe src="https://stevochat.notion.site/ebd/225a27a3743c8067a3a5ed7c494173d7" 
-                                width="100%" 
-                                height="100%" 
-                                frameborder="0" 
-                                allowfullscreen
-                                style="border: none; border-radius: 0; margin: 0; padding: 0; display: block;">
-                        </iframe>
-                    </div>
-                `;
+                // English: Direct redirect to complete Notion page
+                window.open('https://stevochat.notion.site/Transformando-seu-GHL-no-SUPER-GHL-com-os-Scripts-STEVO-225a27a3743c8067a3a5ed7c494173d7', '_blank');
+                return;
             }
             
             // Reativar edição se o editor estiver ativo

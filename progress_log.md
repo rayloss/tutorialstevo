@@ -1955,3 +1955,50 @@ Atualizar o sidebar das páginas Português e English para seguir a estrutura da
 - 🔄 **Git Update**: Preparar commit com as mudanças realizadas
 
 🎯 **RESULTADO: Seção Scripts STEVO agora é uma experiência full-screen focada apenas no conteúdo essencial do Notion!**
+
+### Fase 21.15: Redirecionamento Direto para Página Completa do Notion (08/01/2025) ✅
+- **SOLICITAÇÃO**: Substituir iframe por redirecionamento direto para página completa do Notion
+- **URL ATUALIZADA**: https://stevochat.notion.site/Transformando-seu-GHL-no-SUPER-GHL-com-os-Scripts-STEVO-225a27a3743c8067a3a5ed7c494173d7
+- **IMPLEMENTAÇÃO**: window.open() para abrir página completa em nova aba
+- **VERSÕES ATUALIZADAS**: Português ('scripts-stevo-ghl') e Inglês ('stevo-scripts-ghl')
+
+**Mudanças Técnicas Aplicadas:**
+- ❌ **REMOVIDO**: Iframe embeddado do Notion
+- ✅ **IMPLEMENTADO**: `window.open()` para redirecionamento direto
+- ✅ **URL COMPLETA**: Nova URL com título completo da página
+- ✅ **NOVA ABA**: Abre em nova aba (_blank) para não perder navegação atual
+- ✅ **BILÍNGUE**: Implementado em ambas as versões (PT/EN)
+
+**Vantagens do Redirecionamento Direto:**
+- **🌐 Página Completa**: Usuário acessa a página Notion completa, não limitada por iframe
+- **📱 Mobile Otimizado**: Melhor experiência em dispositivos móveis sem limitações de iframe
+- **🔗 URL Direta**: Link direto permite compartilhamento e bookmarking
+- **⚡ Performance**: Carregamento direto sem overhead de iframe
+- **🎯 Experiência Nativa**: Interface Notion completa com todas funcionalidades
+- **📋 Scroll Natural**: Scroll nativo do Notion sem limitações de container
+
+**Comparação URL:**
+- ❌ **Antes**: https://stevochat.notion.site/ebd/225a27a3743c8067a3a5ed7c494173d7
+- ✅ **Depois**: https://stevochat.notion.site/Transformando-seu-GHL-no-SUPER-GHL-com-os-Scripts-STEVO-225a27a3743c8067a3a5ed7c494173d7
+
+**Funcionalidade:**
+- **Clique**: Usuário clica em "Scripts Stevo para o GHL" → Abre página completa do Notion
+- **Navegação**: Mantém o site atual aberto, abre Notion em nova aba
+- **Experiência**: Acesso total ao conteúdo Notion sem limitações de tamanho
+- **Compatibilidade**: Funciona em todos navegadores e dispositivos
+
+**Código Implementado:**
+```javascript
+// Português
+window.open('https://stevochat.notion.site/Transformando-seu-GHL-no-SUPER-GHL-com-os-Scripts-STEVO-225a27a3743c8067a3a5ed7c494173d7', '_blank');
+
+// English  
+window.open('https://stevochat.notion.site/Transformando-seu-GHL-no-SUPER-GHL-com-os-Scripts-STEVO-225a27a3743c8067a3a5ed7c494173d7', '_blank');
+```
+
+**Próximos Passos:**
+- ✅ **Teste Funcional**: Validar redirecionamento em ambos os idiomas
+- 📱 **Teste Mobile**: Confirmar funcionamento em dispositivos móveis
+- 🔄 **Git Update**: Commit e push das mudanças
+
+🎯 **RESULTADO: Seção Scripts STEVO agora redireciona para página completa do Notion com experiência nativa total!**
